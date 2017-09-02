@@ -94,6 +94,14 @@ function toggleAll(){
 
 toggleAll();
 
+/* Add this to the bottom next time through JS <!-- <footer>
+		<div class = "content">
+			<p id = "copyright">&copy 2017</p>
+			<p id = "credit">Site Design and Development By Dawnska4u</p>
+			
+		</div>
+	</footer> -->*/
+
 
 
 

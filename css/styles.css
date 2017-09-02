@@ -20,6 +20,7 @@ body{
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 20px;
+
 }
 
 #main{
@@ -31,6 +32,8 @@ body{
 img.crest{
 	width: 200px; 
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .kingdom{
@@ -83,3 +86,86 @@ img.crest{
 	margin: 5px;
 	width: 300px;
 }
+
+#card0{
+	transition: all 3s ease;
+	display: flex;
+	flex-direction: column;
+	transform-style: preserve-3d;
+
+}
+#card0:hover{
+	transform: rotateX(180deg);
+	background-color: #112A3F;	
+}
+
+#card1{
+	transition: all 3s ease;
+	display: flex;
+	flex-direction: column;
+	transform-style: preserve-3d;
+
+}
+#card1:hover{
+	transform: rotateY(180deg);
+	background-color: #112A3F;
+}
+
+#card2{
+	transition: all 3s ease;
+	display: flex;
+	flex-direction: column;
+	transform-style: preserve-3d;
+
+}
+#card2:hover{
+	transform: rotateX(180deg);
+	background-color: #112A3F;	
+}
+
+#card3{
+	transition: all 3s ease;
+	display: flex;
+	flex-direction: column;
+	transform-style: preserve-3d;
+
+}
+#card3:hover{
+	transform: rotateY(180deg);
+	background-color: #112A3F;
+}
+
+
+#card4{
+	transition: all 3s ease;
+	display: flex;
+	flex-direction: column;
+	transform-style: preserve-3d;
+
+}
+#card4:hover{
+	transform: rotateX(180deg);
+	background-color: #112A3F;	
+}
+
+#card5{
+	transition: all 3s ease;
+	display: flex;
+	flex-direction: column;
+	transform-style: preserve-3d;
+
+
+}
+#card5:hover{
+	transform: rotateY(180deg);
+	background-color: #112A3F;
+}
+
+
+
+
+
+
+
+
+
