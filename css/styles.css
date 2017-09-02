@@ -1,3 +1,85 @@
 body{
-	background-color: aqua;
+	background-image: url('../assets/got2.jpg');
+	background-size: cover;
+	
+}
+
+
+#gotTitle{
+	font-family: 'Almendra Display', cursive;
+	color: rgb(230, 184, 0);
+	font-size: 100px;
+	text-align: center;
+	
+	
+}
+
+#gotSub{
+	font-family: 'Almendra Display', cursive;
+	color: rgb(230, 184, 0);
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img.crest{
+	width: 200px; 
+    height: auto;
+}
+
+.kingdom{
+	text-align: center;
+	border: 5px solid black;
+    border-radius: 30%;
+	padding: 20px;
+	margin: 40px;
+
+}
+
+.house{
+	font-family: 'Almendra Display', cursive;
+	font-size: 40px;
+	color: #FDA902;
+	text-decoration: underline;
+	margin: 10px;
+	width: 300px;
+}
+
+.region{
+	font-family: 'Cardo', serif;
+	color: orange;
+	font-size: 15px;
+	margin: 5px;
+	width: 300px;
+}
+
+.lord{
+	font-family: 'Cardo', serif;
+	font-size: 15px;
+	color: orange;
+	margin: 5px;
+	width: 300px;
+}
+
+.allegiance{
+	font-family: 'Cardo', serif;
+	font-size: 15px;
+
+	color: orange;
+	margin: 5px;
+	width: 300px;
+}
+
+.words{
+	font-family: 'Cardo', serif;
+	font-size: 15px;
+	color: orange;
+	margin: 5px;
+	width: 300px;
 }
